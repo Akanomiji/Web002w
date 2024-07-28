@@ -1,0 +1,337 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: 3px solid #000;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+
+.header-content img{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.CvLogo {
+    width: 250px;
+    height: 70px;
+}
+
+.Cv2Logo {
+    width: 500px;
+    height: 500px;
+    margin-left: 15%;
+}
+
+.thumb2{
+    padding-left: 60px;
+    width: 500px;
+    height: 250px;
+}
+
+.self-post1{
+    display: flex;
+    flex-direction: row;
+}
+
+.self-post-text2{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.self-text{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+
+
+.self-thumb{
+    padding-top: 50px;
+    padding-left: 300px;
+    width: 800px;
+    height: 300px;
+
+}
+
+.self-post-text1{
+    padding-left: 60px;
+    
+}
+
+.self-border{
+    background-color: #ffd597;
+    width: 600px;
+    height: 1350px;
+    border-radius: 10px;
+}
+
+.self-border1{
+    height: 1350px;
+    background-color: #ffd597;
+    width: 600px;
+    border-radius: 10px;
+    
+}
+
+.SELFCARE{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: sticky;
+    background-color: blueviolet;
+    height: 30px;
+    display: flex;
+    padding: 20px;
+    font-size: 28px;
+    flex-direction: row;
+    padding-left: 200px;
+    top:0;
+    
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    text-align: center;
+    
+}
+
+
+/* nav a:hover{
+    color: red;
+    background-color: #ffebcd;
+    border-radius: 8px;
+    transition: 250ms;
+} */
+
+nav a::before {
+    content: '';
+    height: 100%;
+    width: 0%;
+    left: 0;
+    position: absolute;
+    background: #ffebcd;
+    z-index: -1;
+    transition: all 250ms ease;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.post-contain{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd597;
+}
+
+.post-infected {
+    display: flex;
+    background-color: rgb(169, 204, 108);
+    
+}
+
+.thumb1 {
+    display: grid;
+    justify-content: center;
+}
+
+.content-infected{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.li {
+    font-size: 24px;
+    text-indent: 150px;
+}
+
+.hc1{
+    text-indent: 50px;
+    font-size: 38px;
+}
+
+.hc2{
+    margin-top: 100px;
+    font-size: 38px;
+    text-indent: 50px;
+}
+
+.hc3{
+    padding-top: 50px;
+    
+    font-size: 30px;
+    text-indent: 50px;
+}
+
+.p6{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p5{
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.infected-link{
+    display: grid;
+    padding-left: 150px;
+}
+
+.infected-link a{
+    color: blue;
+}
+
+mark {
+    background-color: transparent;
+    color: red;
+}
+
+.hc1::first-letter{
+    font-size: 48px;
+    color: rgb(3, 179, 179);
+}
+
+.covid-text{
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+
+.covid-p {
+    background-color: aliceblue;
+    font-size: 24px;
+}
+
+.covid-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    
+}
+
+.covid-img img{
+    width: 250px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.COVID-19 h4{
+    text-indent: 50px;
+}
+.COVID-19 h1::first-letter{
+    font-size: 56px;
+    color: aqua;
+}
+
+.COVID-19 h1{
+    font-size: 46px;
+}
+
+.p1::first-letter{
+    font-size: 48px;
+    color: aqua;
+}
+
+.p2::first-letter{
+    font-size: 48px;
+    color: aqua;
+
+}
+.p2::first-line{
+    font-size: 32px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.p4{
+    font-size: 24px;
+}
+
+.context-infected{
+    display: flex;
+    flex-direction: row;
+}
+
+.infected-img img{
+    border: 10px;
+    border-style: groove;
+    width: 400px;
+    height: 250px;
+    
+}
+
+.infected-thumb{
+    border: 10px;
+    border-style: groove;
+    width: 400px;
+    height: 250px;
+}
+
+.infected-thumb1{
+    border: 10px;
+    border-style: groove;
+    width: 150px;
+    height: 200px;
+}
+
+.infected-thumb2{
+    border: 10px;
+    border-style: groove;
+    width: 350px;
+    height: 200px;
+}
+
+@media (max-width: 700px) {
+
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+    nav a{
+        border: 3px solid #ffebcd;
+        height: 40px;
+        width: 500px;
+    }
+
+    .self-post1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .self-post-text2{
+        padding-left: 60px;
+    }
+}
