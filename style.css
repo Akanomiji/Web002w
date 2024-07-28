@@ -313,6 +313,23 @@ p {
 
 @media (max-width: 700px) {
 
+    .header-content {
+        margin-top: 30px;
+        height: 200px;
+        width: 300px;
+       
+    }
+
+    .CvLogo{
+        height: 0;
+        width: 0;
+    }
+    
+    .Cv2Logo{
+        content: url("./Resource/banner/3.jpg");
+        height: 200px;
+        width: 260px;
+    }
     
     .navbar {
         flex-direction: column;
