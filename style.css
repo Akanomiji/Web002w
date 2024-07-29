@@ -106,7 +106,6 @@ nav a{
     z-index: 1;
     width: 200px;
     text-align: center;
-    
 }
 
 
@@ -116,6 +115,7 @@ nav a{
     border-radius: 8px;
     transition: 250ms;
 } */
+
 
 nav a::before {
     content: '';
