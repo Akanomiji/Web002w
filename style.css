@@ -37,6 +37,7 @@ body,html {
 .self-post1{
     display: flex;
     flex-direction: row;
+    margin-left: 15%;
 }
 
 .self-post-text2{
@@ -55,7 +56,7 @@ body,html {
 
 .self-thumb{
     padding-top: 50px;
-    padding-left: 300px;
+    padding-left: 500px;
     width: 800px;
     height: 300px;
 
